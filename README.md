@@ -1,6 +1,7 @@
-# Testando
+# Markdown
 
-## Base de JavaScript
+### A little guide
+#### for students
 
 - Variveis
     - var, let e const
@@ -15,9 +16,13 @@
 
 - Markdown
 
-    - Bold **text**
+    - Bold **text** `**text**`
     - Italic *text*
     - Strong __strong__
     - Bold and Italic***text***
     - Bold and Italic best practices
-        - do it ***text***
+        - do it ***text
+        - 
+- # Codes
+    - $ git commit -m "versao ptbr"
+    - `$ git commit -m "versao ptbr"`
