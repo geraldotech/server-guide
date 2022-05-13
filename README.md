@@ -26,3 +26,7 @@
 - # Codes
     - $ git commit -m "versao ptbr"
     - `$ git commit -m "versao ptbr"`
+
+
+## Add single Files:
+    ```git add filename.html```
