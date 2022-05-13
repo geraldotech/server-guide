@@ -29,4 +29,9 @@
 
 
 ## Add single Files:
-    ```git add filename.html```
+    git add filename.html
+
+## new code
+    ipconfig/displaydns
+## new code
+    sudo apt-get update
