@@ -4,8 +4,8 @@
 
 
 - # How Editor and browser preview
- - Free Editor can be VS Code, Sublime and etc...
- - For browser preview install a extension [Chrome and EDGE](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
+    - Free Editor can be VS Code, Sublime and etc...
+    - For browser preview install a extension [Chrome and EDGE](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk)
 
 - # List
 - Variveis
@@ -40,7 +40,8 @@
         }
         ```
         ### example command:
-        ``` sudo apt-get update ```
+        ``` 
+        sudo apt-get update ```
         
 
 
