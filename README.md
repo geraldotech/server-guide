@@ -13,4 +13,12 @@
     - Métodos
         -`.map`, `.filter`, `.reduce`
 
-        
+- Markdown
+
+Bold **text**
+Italic *text*
+Strong __strong__
+Bold and Italic***text***
+
+- Bold and Italic best practices
+    - do it ***text***
