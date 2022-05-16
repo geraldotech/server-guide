@@ -1,5 +1,5 @@
 arr.push(5)
-arr.push(15)
+arr.push(16)
 
 console.log(arr[0] + arr[1])
 
