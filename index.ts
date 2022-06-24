@@ -1,6 +1,6 @@
 //string, boolean, number...
 let x: number = 10;
-
+let git: string = 10;
 x = 18;
 
 console.log(x);
