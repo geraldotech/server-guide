@@ -90,7 +90,7 @@ function insertItem(item,index) {
     <td>${item.company}</td>
     <td>${item.sItem}</td>
     <td>${item.quantidade}</td>
-    <td>R$ ${item.quantidade2}</td>
+    <td>R$ ${item.quantidade2 * item.quantidade}</td>
     
     <td class="acao">
     <button onclick="editItem(${index})"><i class='bx bx-edit'></i> </button> </td>
@@ -119,7 +119,7 @@ if(id !== undefined) {
     
     
 } else {
-    itens.push({'name': sName.value, 'company': fcategory.value, 'sItem': ssubcategory.value, 'quantidade': mQuant.value, 'quantidade2': mQuant2.value * mQuant.value,})
+    itens.push({'name': sName.value, 'company': fcategory.value, 'sItem': ssubcategory.value, 'quantidade': mQuant.value, 'quantidade2': mQuant2.value,})
     console.log(mQuant2.value * mQuant.value)
 }
 
