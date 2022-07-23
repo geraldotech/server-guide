@@ -7,8 +7,7 @@ const mQuant = document.querySelector('#m-quant') //quantidade
 const mQuant2 = document.querySelector('#m-quant2') //quantidade
 const myUnitario = document.querySelector('#myUnitario')
 
-/* let unidades = document.getElementById('m-quant').value;
-console.log(unidades) */
+
 
 const btnSalvar = document.querySelector('#btnSalvar')
 
@@ -68,8 +67,6 @@ function openModal(edit = false, index = 0) {
         mQuant2.value = ''
         fcategory.value = '' 
         
-               
-        
       }
       
     }
@@ -122,7 +119,8 @@ if(id !== undefined) {
     
     
 } else {
-    itens.push({'name': sName.value, 'company': fcategory.value, 'sItem': ssubcategory.value, 'quantidade': mQuant.value, 'quantidade2': mQuant2.value * 2,})
+    itens.push({'name': sName.value, 'company': fcategory.value, 'sItem': ssubcategory.value, 'quantidade': mQuant.value, 'quantidade2': mQuant2.value * mQuant.value,})
+    console.log(mQuant2.value * mQuant.value)
 }
 
 setItensBD()
