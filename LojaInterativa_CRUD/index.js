@@ -144,3 +144,6 @@ const setItensBD = () => localStorage.setItem('dbfunc', JSON.stringify(itens))
 
 loadItens()
 
+
+
+console.log(2 +2)
