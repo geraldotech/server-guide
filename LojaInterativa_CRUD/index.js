@@ -19,7 +19,8 @@ function displaySelected() {
 
 var subcategory = {
     Nestle: ["Achocolatado", "Sorteves", "Biscoitos", "Creme de Leite"],
-    PlusVita: ["Pão de Forma", "Bolo Plus", "Pão Integral"]
+    PlusVita: ["Pão de Forma", "Bolo Plus", "Pão Integral"],
+    Americanas:["Chocolates","Smartphones","Eletronicos"]
 }
 
 function makeSubmenu(value) {
