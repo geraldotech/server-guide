@@ -31,3 +31,4 @@ function hello(name) {
 }
 
 console.log(`teste one`);
+console.log(`teste two`);
