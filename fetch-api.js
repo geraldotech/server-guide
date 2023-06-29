@@ -29,3 +29,5 @@ console.log("git commit");
 function hello(name) {
   console.log(name);
 }
+
+console.log(`teste one`);
