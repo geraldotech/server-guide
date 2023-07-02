@@ -34,3 +34,4 @@ console.log(`teste one`);
 console.log(`teste two`);
 console.log(`test three`);
 console.log(`test four`);
+console.log(`test fire`);
