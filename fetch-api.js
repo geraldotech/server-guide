@@ -35,4 +35,8 @@ console.log(`teste two`);
 console.log(`test three`);
 console.log(`test four`);
 console.log(`test fire`);
+<<<<<<< HEAD
 console.log(`seven`);
+=======
+console.log(`test six`);
+>>>>>>> 0556afa57c7fc60d44e917b7b5a42877957c10e7
