@@ -38,3 +38,4 @@ console.log(`test fire`);
 console.log(`seven`);
 console.log(`test six`);
 console.log(`test eitgh from Expert x40`);
+console.log("teste from Nitro PC")
