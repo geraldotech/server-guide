@@ -16,5 +16,10 @@ font-size: 2rem;
 </div>
 
 </div>
+      
+<script>
+  console.log("Hello")
+</script>
+      
 </foreignObject>
 </svg>
