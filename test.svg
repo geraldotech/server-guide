@@ -5,11 +5,13 @@
 <style>
   .container {
 color: red;
+font-size: 2rem;
   }
   
 </style>
 
 <div class="container">
+      <h1>How is</h1>
 <p>Hello</p>
 </div>
 
