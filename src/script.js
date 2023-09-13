@@ -5,6 +5,8 @@ getText.forEach(value => {
     value.addEventListener("click", handlerClick)
 })
 
+console.log('one')
+
 
 function handlerClick(e) {
     //the current text value
