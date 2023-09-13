@@ -1,0 +1,81 @@
+* {
+  color-scheme: dark;
+  /*  font-size: 1.2rem; */
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 60rem;
+  margin: auto;
+}
+
+a {
+  display: bloxck;
+  text-decoration: none;
+  width: fit-content;
+  line-height: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+span {
+  color: green;
+  font-weight: bold;
+}
+
+hr {
+  background-color: seagreen;
+  height: 2px;
+  border: 2px pink;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 10px;
+}
+
+dd,
+li,
+dt {
+  margin: 10px 0;
+}
+
+dt h2 {
+  color: rgb(116, 255, 176);
+}
+
+summary {
+  cursor: pointer;
+}
+
+details p {
+  cursor: pointer;
+}
+details p:hover{
+  color: rgb(116, 255, 176);
+
+}
+
+
+.pops_menu li {
+  padding: 10px 0px;
+}
+
+footer {
+  margin-top: 100px;
+  bottom: 0;
+  height: 50px;
+  text-align: center;
+
+}
+
+dl dd {
+  margin-left: 25px;
+}
