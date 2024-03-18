@@ -1,0 +1,41 @@
+// api url
+const api_url = "https://api.github.com/users/geraldotech";
+
+// Defining async function
+async function getapi(url) {
+  // Storing response
+  const response = await fetch(url);
+
+  // Storing data in form of JSON
+  var data = await response.json();
+  console.log(data);
+  if (response) {
+  }
+  show(data);
+}
+// Calling that async function
+getapi(api_url);
+
+function show(data) {
+  console.log(data.login);
+  document.getElementById("root").innerHTML = data.name;
+  document.getElementById("img").innerHTML = `<img src="${data.avatar_url}" />`;
+  document.getElementById("bio").innerHTML = `${data.bio}`;
+  console.log(data.bio);
+}
+
+console.log("git commit");
+
+function hello(name) {
+  console.log(name);
+}
+
+console.log(`teste one`);
+console.log(`teste two`);
+console.log(`test three`);
+console.log(`test four`);
+console.log(`test fire`);
+console.log(`seven`);
+console.log(`test six`);
+console.log(`test eitgh from Expert x40`);
+console.log("teste from Nitro PC")
