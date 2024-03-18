@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+Its a #gpdev branch
+Its a second paran
+=======
 ## server-guide
 
 [LIVE DEMO CRUD](https://geraldotech.github.io/server-guide/LojaInterativa_CRUD/)
@@ -34,3 +38,4 @@
 <div class="cgZrep">
   Yes I know
 </div>
+>>>>>>> fb1bdb7c358f357aaef1384f6f4414b33b600f1b
